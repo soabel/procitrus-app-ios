@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6BC1A3D23C2D3D100A1E02F /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BC1A3C23C2D3D100A1E02F /* SignIn.storyboard */; };
 		A6C0648E23BF883D0061E699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0648D23BF883D0061E699 /* AppDelegate.swift */; };
 		A6C0649023BF883D0061E699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0648F23BF883D0061E699 /* SceneDelegate.swift */; };
 		A6C0649223BF883D0061E699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0649123BF883D0061E699 /* ViewController.swift */; };
@@ -15,6 +16,11 @@
 		A6C0649A23BF883E0061E699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C0649823BF883E0061E699 /* LaunchScreen.storyboard */; };
 		A6C064A523BF883F0061E699 /* PriceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C064A423BF883F0061E699 /* PriceAppTests.swift */; };
 		A6C064B023BF883F0061E699 /* PriceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C064AF23BF883F0061E699 /* PriceAppUITests.swift */; };
+		A6C064D023BFA5680061E699 /* Average.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C064CF23BFA5680061E699 /* Average.storyboard */; };
+		A6C064D223BFA5A80061E699 /* Market.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C064D123BFA5A80061E699 /* Market.storyboard */; };
+		A6C064D423BFA6020061E699 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C064D323BFA6020061E699 /* Notification.storyboard */; };
+		A6C064D623BFA6340061E699 /* Trends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C064D523BFA6340061E699 /* Trends.storyboard */; };
+		A6C064D923BFA6950061E699 /* Options.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C064D823BFA6950061E699 /* Options.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6BC1A3C23C2D3D100A1E02F /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		A6C0648A23BF883D0061E699 /* PriceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C0648D23BF883D0061E699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C0648F23BF883D0061E699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		A6C064AB23BF883F0061E699 /* PriceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C064AF23BF883F0061E699 /* PriceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAppUITests.swift; sourceTree = "<group>"; };
 		A6C064B123BF883F0061E699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C064CF23BFA5680061E699 /* Average.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Average.storyboard; sourceTree = "<group>"; };
+		A6C064D123BFA5A80061E699 /* Market.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Market.storyboard; sourceTree = "<group>"; };
+		A6C064D323BFA6020061E699 /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		A6C064D523BFA6340061E699 /* Trends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Trends.storyboard; sourceTree = "<group>"; };
+		A6C064D823BFA6950061E699 /* Options.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Options.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,12 @@
 		A6C0648C23BF883D0061E699 /* PriceApp */ = {
 			isa = PBXGroup;
 			children = (
-				A6C0648D23BF883D0061E699 /* AppDelegate.swift */,
-				A6C0648F23BF883D0061E699 /* SceneDelegate.swift */,
-				A6C0649123BF883D0061E699 /* ViewController.swift */,
-				A6C0649323BF883D0061E699 /* Main.storyboard */,
-				A6C0649623BF883E0061E699 /* Assets.xcassets */,
-				A6C0649823BF883E0061E699 /* LaunchScreen.storyboard */,
-				A6C0649B23BF883E0061E699 /* Info.plist */,
+				A6C064CD23BF8C080061E699 /* base */,
+				A6C064C123BF8B000061E699 /* application */,
+				A6C064C023BF8AF40061E699 /* resources */,
+				A6C064BF23BF88CF0061E699 /* ui */,
+				A6C064BE23BF88C90061E699 /* view */,
+				A6C064BD23BF88AF0061E699 /* model */,
 			);
 			path = PriceApp;
 			sourceTree = "<group>";
@@ -126,6 +137,165 @@
 				A6C064B123BF883F0061E699 /* Info.plist */,
 			);
 			path = PriceAppUITests;
+			sourceTree = "<group>";
+		};
+		A6C064BD23BF88AF0061E699 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A6C064BE23BF88C90061E699 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A6C064BF23BF88CF0061E699 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		A6C064C023BF8AF40061E699 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064CE23BF8C4C0061E699 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		A6C064C123BF8B000061E699 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064D723BFA66C0061E699 /* options */,
+				A6C064CC23BF8BCD0061E699 /* shared */,
+				A6C064CB23BF8BBA0061E699 /* trends */,
+				A6C064CA23BF8B920061E699 /* history */,
+				A6C064C923BF8B730061E699 /* register */,
+				A6C064C823BF8B680061E699 /* notification */,
+				A6C064C723BF8B610061E699 /* market */,
+				A6C064C623BF8B4D0061E699 /* average */,
+				A6C064C523BF8B450061E699 /* profile */,
+				A6C064C423BF8B2E0061E699 /* main */,
+				A6C064C223BF8B0E0061E699 /* authentication */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		A6C064C223BF8B0E0061E699 /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064C323BF8B190061E699 /* signin */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		A6C064C323BF8B190061E699 /* signin */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC1A3C23C2D3D100A1E02F /* SignIn.storyboard */,
+			);
+			path = signin;
+			sourceTree = "<group>";
+		};
+		A6C064C423BF8B2E0061E699 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0649123BF883D0061E699 /* ViewController.swift */,
+				A6C0649323BF883D0061E699 /* Main.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		A6C064C523BF8B450061E699 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		A6C064C623BF8B4D0061E699 /* average */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064CF23BFA5680061E699 /* Average.storyboard */,
+			);
+			path = average;
+			sourceTree = "<group>";
+		};
+		A6C064C723BF8B610061E699 /* market */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064D123BFA5A80061E699 /* Market.storyboard */,
+			);
+			path = market;
+			sourceTree = "<group>";
+		};
+		A6C064C823BF8B680061E699 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064D323BFA6020061E699 /* Notification.storyboard */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+		A6C064C923BF8B730061E699 /* register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		A6C064CA23BF8B920061E699 /* history */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		A6C064CB23BF8BBA0061E699 /* trends */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064D523BFA6340061E699 /* Trends.storyboard */,
+			);
+			path = trends;
+			sourceTree = "<group>";
+		};
+		A6C064CC23BF8BCD0061E699 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		A6C064CD23BF8C080061E699 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0648F23BF883D0061E699 /* SceneDelegate.swift */,
+				A6C0649823BF883E0061E699 /* LaunchScreen.storyboard */,
+				A6C0648D23BF883D0061E699 /* AppDelegate.swift */,
+				A6C0649B23BF883E0061E699 /* Info.plist */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		A6C064CE23BF8C4C0061E699 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0649623BF883E0061E699 /* Assets.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A6C064D723BFA66C0061E699 /* options */ = {
+			isa = PBXGroup;
+			children = (
+				A6C064D823BFA6950061E699 /* Options.storyboard */,
+			);
+			path = options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +402,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C064D023BFA5680061E699 /* Average.storyboard in Resources */,
+				A6C064D623BFA6340061E699 /* Trends.storyboard in Resources */,
+				A6C064D423BFA6020061E699 /* Notification.storyboard in Resources */,
 				A6C0649A23BF883E0061E699 /* LaunchScreen.storyboard in Resources */,
+				A6BC1A3D23C2D3D100A1E02F /* SignIn.storyboard in Resources */,
+				A6C064D223BFA5A80061E699 /* Market.storyboard in Resources */,
+				A6C064D923BFA6950061E699 /* Options.storyboard in Resources */,
 				A6C0649723BF883E0061E699 /* Assets.xcassets in Resources */,
 				A6C0649523BF883D0061E699 /* Main.storyboard in Resources */,
 			);
@@ -435,7 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PriceApp/Info.plist;
+				INFOPLIST_FILE = PriceApp/base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PriceApp/Info.plist;
+				INFOPLIST_FILE = PriceApp/base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
